@@ -52,10 +52,12 @@ class SassNumber extends SassLiteral
     'mm' => 25.4,
     'pc' => 6,
     'pt' => 72,
-    'px' => 96
+    'px' => 96,
+    'vw' => 10,
+    'vh' => 10
   );
   private static $validUnits = array(
-    'in', 'cm', 'mm', 'pc', 'pt', 'em', 'rem', 'ex', 'px', '%', 's', 'deg'
+    'in', 'cm', 'mm', 'pc', 'pt', 'em', 'rem', 'ex', 'px', '%', 's', 'deg', 'vw', 'vh'
   );
 
   /**
