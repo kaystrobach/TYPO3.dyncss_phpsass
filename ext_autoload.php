@@ -5,7 +5,6 @@
 $extensionPath = t3lib_extMgm::extPath('dyncss_phpsass');
 $extensionClassesPath = $extensionPath . 'Classes/';
 return array(
-	'tx_dyncssphpsass_parsersass' => $extensionClassesPath . 'ParserSass.php',
-	'tx_dyncssphpsass_parserscss' => $extensionClassesPath . 'ParserScss.php',
+    'tx_dyncssphpsass_parsersass' => $extensionClassesPath . 'ParserSass.php',
+    'tx_dyncssphpsass_parserscss' => $extensionClassesPath . 'ParserScss.php',
 );
-?>
